@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 2em;
+  padding: 0;
+  background-color: #fff;
+  font-size: 1em;
+}
+
+header {
+  background-color: BLACK;
+}
+
+nav {
+  background-color: whitesmoke;
+}
+
+section {
+  background-color: dimgrey;
+}
+
+article {
+  background-color:grey;
+}
+
+p {
+  background-color: BLACK;
+}
+
+aside {
+  background-color: WHITE;
+}
+
+footer {
+  background-color: #777589;
+}
+
+div {
+  background-color: BLACK;
+}
+
+.fashion {
+    background-image: url("Screen%20Shot%202017-01-19%20at%201.55.16%20PM.png")
+}

@@ -1,0 +1,170 @@
+*, *::before, *::after {
+  box-sizing: border-box ;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 2em;
+  padding: 0;
+  background-image:url(dark_wood/dark_wood.png);
+  font-size: 1em;
+}
+
+
+nav {
+  background-color: floralwhite;
+}
+
+section {
+  background-color: transparent;
+    color:mediumaquamarine
+}
+
+article {
+  background-color: transparent;
+    color:grey;
+    
+        
+}
+
+p {
+  background-color: transparent;
+    color:white
+   
+}
+
+aside {
+  background-color: WHITE;
+}
+
+footer {
+  background-color: #777589;
+}
+
+div {
+  background-color: BLACK;
+}
+
+header,
+nav,
+section,
+article,
+p,
+aside,
+footer {
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+}
+
+.left, accomodate-pull-quote {
+    float: left;
+    width: 64%
+                
+    }
+    
+.right, pull-quote {
+    background-image: url(images/PRE_SS17_BANNER_53-1440.jpg);
+   background-size: contain;
+    float:right;
+   width:320px;
+    height:500px;
+    font-family:'Poiret One', cursive;
+    
+}
+
+
+
+
+.fashion {
+    background-image:url(images/Screen%20Shot%202017-01-19%20at%201.55.16%20PM.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.fashion p {
+    margin-top: 400px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.fashion2 {
+    background-image:url(images/Screen%20Shot%202017-01-19%20at%202.15.30%20PM.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 400px
+}
+
+.fashion2 p {
+    margin-top: 250px;
+    font-size: 18px;
+}
+
+.trendy{ background-color:transparent;
+    background-size: contain;
+    background-repeat: repeat;
+    height:900px;
+    width: 250px;
+}
+
+.bottomright { background-image: url(images/UpdatedBanner-1440.jpg);
+    background-color:transparent;
+    background-size:contain;
+    float:right;
+    width:320px;
+    height:1000px;}
+
+.primary-nav {
+    margin-top: 50px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    
+    
+    
+}
+.primary-nav a:hover {color:aquamarine}
+
+.primary-nav a {text-decoration:none;
+color: maroon;
+}
+
+.logo { background-image: url(images/fashionkiller-sm.png)
+    ;
+    
+
+
+height: 60px}
+
+.left { font-size: 34px;
+font-family: 'Poiret One', cursive;}
+
+.logo img {
+    width: 90px;
+    float: right;
+    margin-top: 40px
+}
+
+
+
+.sidetext { color:beige;
+background-color: rgba(0, 0, 0, .6);}
+
+.sidetext a hover {color:maroon}
+
+.designs {background-color: rgba(0, 0, 0, .6);}
+
+.sidenav {color: maroon}
+
+
+
+/*owl carousel styles*/
+
+
+$('.owl-carousel').owlCarousel({
+    margin:10,
+    loop:true,
+    autoWidth:true,
+    items:4
+})
+
+
